@@ -1,12 +1,10 @@
-﻿using System.Windows.Forms;
-
-namespace WinFormsSnake
+﻿namespace WinFormsSnake
 {
     public enum Directions
     {
-        Left = Keys.Left,
-        Up = Keys.Up,
-        Right = Keys.Right,
-        Down = Keys.Down
+        Left = 37,  
+        Up = 38,   
+        Right = 39,
+        Down = 40  
     }
 }
