@@ -13,7 +13,11 @@ namespace WinFormsSnake
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SnakeForm());
+
+            var view = new SnakeForm();
+            var presenter = new SnakePresenter(view);
+
+            Application.Run(view);
         }
     }
 }

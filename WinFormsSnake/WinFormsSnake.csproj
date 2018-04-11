@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums.cs" />
+    <Compile Include="ISnakeView.cs" />
     <Compile Include="SnakeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +57,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Snake.cs" />
+    <Compile Include="SnakePresenter.cs" />
     <EmbeddedResource Include="SnakeForm.resx">
       <DependentUpon>SnakeForm.cs</DependentUpon>
     </EmbeddedResource>
